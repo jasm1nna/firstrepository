@@ -1,0 +1,25 @@
+.basket_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+.basket_items > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.basket_items  img{
+    width: 150px;
+    height: 150px;
+}
+.basket_items button {
+    padding: 6px 20px;
+    border: none;
+    background-color: rgb(83,83,182);
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+}

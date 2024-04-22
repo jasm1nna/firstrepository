@@ -1,0 +1,16 @@
+.detail_container{
+    display: flex;
+}
+.detail_container img{
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.detail_container button{
+    padding: 6px 20px;
+    border: none;
+    background-color: rgb(83,83,182);
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+}
